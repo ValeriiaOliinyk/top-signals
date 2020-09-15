@@ -1,0 +1,94 @@
+.bottom {
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+.bottom__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 122.6%;
+  text-align: center;
+  color: $title-color;
+  text-transform: uppercase;
+}
+
+.bottom__list {
+  margin-top: 30px;
+}
+
+.bottom__item {
+  height: 180px;
+  width: 280px;
+  margin: auto;
+  background-color: $bottom-color;
+  padding: 22px;
+  border-bottom: 2px solid $telegram-color;
+}
+
+.bottom__item-img {
+  display: none;
+}
+
+.bottom__item + .bottom__item {
+  margin-top: 10px;
+}
+
+.bottom__paragraph {
+  font-size: 16px;
+  color: $telegram-color;
+  margin-bottom: 20px;
+}
+
+.bottom__text {
+  color: $title-color;
+  font-size: 14px;
+}
+
+.list__item {
+  margin-top: 10px;
+}
+
+@media screen and (min-width: 1440px) {
+  .bottom__title {
+    font-size: 36px;
+  }
+
+  .bottom__list {
+    display: flex;
+    align-items: center;
+  }
+
+  .bottom__item {
+    width: 338px;
+  }
+
+  .list__item {
+    margin: 0;
+  }
+
+  .bottom__item-img {
+    all: unset;
+    display: block;
+    width: 650px;
+    height: 664px;
+    background-image: url(../images/mobile-removebg-preview.png);
+    background-position: center;
+    background-size: cover;
+  }
+
+  .bottom__item {
+    border-bottom: unset;
+  }
+
+  .bottom__item-right {
+    border-right: 2px solid $telegram-color;
+  }
+
+  .bottom__item-left {
+    border-left: 2px solid $telegram-color;
+  }
+
+  .bottom__item + .bottom__item {
+    margin-top: 24px;
+  }
+}
