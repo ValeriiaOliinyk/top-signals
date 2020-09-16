@@ -62,7 +62,7 @@
 }
 
 .form__icon-user {
-  background-image: url(../images/user.svg);
+  background-image: url(../images/user.png);
 }
 
 .form__box + .form__box {
@@ -91,8 +91,9 @@
 .top__box {
   width: 280px;
   height: 280px;
-  background-image: url(../images/mobile-removebg-preview.png);
-  background-position: center;
+  background-image: url(../images/mobile.png);
+  background-repeat: no-repeat;
+  background-position: right 28% bottom 50%;
   background-size: cover;
   margin: auto;
   margin-top: 50px;
@@ -166,7 +167,7 @@
   border: none;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1199px) {
   .top {
     background-color: transparent;
     background: url(../images/background.png) 0% 0% no-repeat;
@@ -215,6 +216,7 @@
     margin: 0;
     width: 400px;
     height: 700px;
+    background-position: center center;
   }
 
   .form {

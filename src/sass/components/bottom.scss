@@ -48,7 +48,7 @@
   margin-top: 10px;
 }
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1199px) {
   .bottom__title {
     font-size: 36px;
   }
@@ -71,9 +71,9 @@
     display: block;
     width: 650px;
     height: 664px;
-    background-image: url(../images/mobile-removebg-preview.png);
-    background-position: center;
-    background-size: cover;
+    background-image: url(../images/mobile.png);
+    background-repeat: no-repeat;
+    background-position: right 38% bottom 50%;
   }
 
   .bottom__item {
